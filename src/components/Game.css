@@ -1,0 +1,44 @@
+@import url(/src/consts.css);
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    width:50%;
+}
+
+.init{
+    width:80vw;
+    max-width:750px;
+    margin:20px 0;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    gap:10px;
+    border:1px solid red;
+    border-radius: 10px;
+}
+
+.init h1{
+   font-family: var(--boldfont);
+}
+
+.init h2{
+    font-family: var(--mediumfont);
+}
+
+.init button{
+    font-family: var(--boldfont);
+    width:160px;
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 6px;
+    color:white;
+}
