@@ -1,304 +1,310 @@
 {
   "preguntas": [
     {
+      "id": 0,
+      "question": "¿Cuál es el año de fundación del Club Atlético River Plate?",
+      "options": ["1901", "1902", "1903", "1904"],
+      "answerIndex": 0
+    },
+    {
       "id": 1,
-      "question": "¿En qué año fue fundado el Club Atlético River Plate?",
-      "options": ["1901", "1910", "1920", "1930"],
-      "answer": "1901"
+      "question": "¿Cuál es el apodo de River Plate?",
+      "options": ["Los Diablos Rojos", "Los Millonarios", "Los Cienfuegos", "Los Leones"],
+      "answerIndex": 1
     },
     {
       "id": 2,
-      "question": "¿Cuál es el apodo de River Plate?",
-      "options": ["Los Diablos Rojos", "Los Cienfuegos", "Los Millonarios", "Los Leones"],
-      "answer": "Los Millonarios"
+      "question": "¿En qué ciudad se encuentra el estadio Monumental de River Plate?",
+      "options": ["Buenos Aires", "Rosario", "Córdoba", "Montevideo"],
+      "answerIndex": 0
     },
     {
       "id": 3,
-      "question": "¿Cuál es el estadio de River Plate?",
-      "options": ["La Bombonera", "Estadio Centenario", "Estadio Monumental", "Estadio Azteca"],
-      "answer": "Estadio Monumental"
+      "question": "¿Cuántas veces ha ganado River Plate la Copa Libertadores?",
+      "options": ["3", "4", "5", "6"],
+      "answerIndex": 1
     },
     {
       "id": 4,
-      "question": "¿Cuántas veces ha ganado River Plate la Copa Libertadores?",
-      "options": ["3", "4", "5", "6"],
-      "answer": "4"
+      "question": "¿Quién es el máximo goleador histórico de River Plate?",
+      "options": ["Enzo Francescoli", "Ángel Labruna", "Radamel Falcao", "Ariel Ortega"],
+      "answerIndex": 1
     },
     {
       "id": 5,
-      "question": "¿Quién es el máximo goleador histórico de River Plate?",
-      "options": ["Enzo Francescoli", "Ángel Labruna", "Radamel Falcao", "Ariel Ortega"],
-      "answer": "Ángel Labruna"
+      "question": "¿Cuál fue el primer título internacional ganado por River Plate?",
+      "options": ["Copa Sudamericana", "Copa Libertadores", "Recopa Sudamericana", "Copa Aldao"],
+      "answerIndex": 3
     },
     {
       "id": 6,
-      "question": "¿En qué ciudad se encuentra el estadio Monumental de River Plate?",
-      "options": ["Buenos Aires", "Rosario", "Córdoba", "Montevideo"],
-      "answer": "Buenos Aires"
+      "question": "¿Cuál es el estadio de River Plate?",
+      "options": ["La Bombonera", "Estadio Centenario", "Estadio Monumental", "Estadio Azteca"],
+      "answerIndex": 2
     },
     {
       "id": 7,
-      "question": "¿Cuál fue el primer título internacional ganado por River Plate?",
-      "options": ["Copa Sudamericana", "Copa Libertadores", "Recopa Sudamericana", "Copa Intercontinental"],
-      "answer": "Copa Aldao"
+      "question": "¿Quién es el entrenador actual de River Plate?",
+      "options": ["Marcelo Gallardo", "Diego Simeone", "Ramón Díaz", "Martin Demichelis"],
+      "answerIndex": 0
     },
     {
       "id": 8,
-      "question": "¿Quién es el entrenador actual de River Plate?",
-      "options": ["Marcelo Gallardo", "Diego Simeone", "Ramón Díaz", "Martin Demichelis"],
-      "answer": "Martin Demichelis"
+      "question": "¿En qué año River Plate ganó su última Copa Libertadores?",
+      "options": ["2015", "2017", "2018", "2019"],
+      "answerIndex": 2
     },
     {
       "id": 9,
-      "question": "¿En qué año River Plate ganó su última Copa Libertadores?",
-      "options": ["2015", "2017", "2018", "2019"],
-      "answer": "2018"
+      "question": "¿Cuál es el himno oficial de River Plate?",
+      "options": ["Himno del Centenario", "Himno a la Alegría", "Mi Buenos Aires querido", "Los Borrachos del Tablón"],
+      "answerIndex": 0
     },
     {
       "id": 10,
-      "question": "¿Cuál es el himno oficial de River Plate?",
-      "options": ["Himno del Centenario", "Himno a la Alegría", "Mi Buenos Aires querido", "Los Borrachos del Tablón"],
-      "answer": "Himno del Centenario"
-    },
-        {
-      "id": 11,
       "question": "¿Cuántas veces River Plate ha ganado la Copa Intercontinental?",
       "options": ["1", "2", "3", "4"],
-      "answer": "1"
+      "answerIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "¿En qué año River Plate ganó su primera Copa Libertadores?",
+      "options": ["1976", "1982", "1986", "1990"],
+      "answerIndex": 2
     },
     {
       "id": 12,
-      "question": "¿En qué año River Plate ganó su primera Copa Libertadores?",
-      "options": ["1976", "1982", "1986", "1990"],
-      "answer": "1986"
+      "question": "¿Cuál es el nombre completo del estadio de River Plate?",
+      "options": ["Estadio Santiago Bernabéu", "Estadio Libertadores de América", "Estadio Monumental Antonio Vespucio Liberti", "Estadio Mario Alberto Kempes"],
+      "answerIndex": 2
     },
     {
       "id": 13,
-      "question": "¿Cuál es el nombre completo del estadio de River Plate?",
-      "options": ["Estadio Santiago Bernabéu", "Estadio Libertadores de América", "Estadio Monumental Antonio Vespucio Liberti", "Estadio Mario Alberto Kempes"],
-      "answer": "Estadio Monumental Antonio Vespucio Liberti"
+      "question": "¿Qué jugador es conocido como 'El Beto' en la historia de River Plate?",
+      "options": ["Enzo Francescoli", "Ariel Ortega", "Daniel Passarella", "Norberto Alonso"],
+      "answerIndex": 3
     },
     {
       "id": 14,
-      "question": "¿Qué jugador es conocido como 'El Beto' en la historia de River Plate?",
-      "options": ["Enzo Francescoli", "Ariel Ortega", "Daniel Passarella", "Norberto Alonso"],
-      "answer": "Norberto Alonso"
+      "question": "¿En qué país se fundó el Club Atlético River Plate?",
+      "options": ["Uruguay", "Argentina", "Brasil", "Paraguay"],
+      "answerIndex": 1
     },
     {
       "id": 15,
-      "question": "¿En qué país se fundó el Club Atlético River Plate?",
-      "options": ["Uruguay", "Argentina", "Brasil", "Paraguay"],
-      "answer": "Argentina"
+      "question": "¿Cuántas veces River Plate ha ganado la Supercopa Sudamericana?",
+      "options": ["1", "2", "3", "4"],
+      "answerIndex": 1
     },
     {
       "id": 16,
-      "question": "¿Cuántas veces River Plate ha ganado la Supercopa Sudamericana?",
-      "options": ["1", "2", "3", "4"],
-      "answer": "2"
+      "question": "¿Quién es el presidente actual de River Plate?",
+      "options": ["Rodolfo D'Onofrio", "Daniel Passarella", "Enzo Francescoli", "Jorge Brito"],
+      "answerIndex": 0
     },
     {
       "id": 17,
-      "question": "¿Quién es el presidente actual de River Plate?",
-      "options": ["Rodolfo D'Onofrio", "Daniel Passarella", "Enzo Francescoli", "Jorge Brito"],
-      "answer": "Jorge Brito"
+      "question": "¿En qué año River Plate ganó su primera Copa Aldao?",
+      "options": ["1914", "1920", "1936", "1948"],
+      "answerIndex": 2
     },
     {
       "id": 18,
-      "question": "¿En qué año River Plate ganó su primera Copa Aldao?",
-      "options": ["1914", "1920", "1936", "1948"],
-      "answer": "1936"
+      "question": "¿Qué jugador ostenta el récord de más partidos jugados con la camiseta de River Plate?",
+      "options": ["Leonardo Ponzio", "Amadeo Carrizo", "Ángel Labruna", "Reinaldo Merlo"],
+      "answerIndex": 3
     },
     {
       "id": 19,
-      "question": "¿Qué jugador ostenta el récord de más partidos jugados con la camiseta de River Plate?",
-      "options": ["Leonardo Ponzio", "Amadeo Carrizo", "Ángel Labruna", "Reinaldo Merlo"],
-      "answer": "Reinaldo Merlo"
+      "question": "¿Cuál es el color principal del uniforme de River Plate?",
+      "options": ["Rojo y Blanco", "Azul y Amarillo", "Negro y Blanco", "Blanco y Rojo"],
+      "answerIndex": 3
     },
     {
       "id": 20,
-      "question": "¿Cuál es el color principal del uniforme de River Plate?",
-      "options": ["Rojo y Blanco", "Azul y Amarillo", "Negro y Blanco", "Blanco y Rojo"],
-      "answer": "Blanco y Rojo"
-    },
-        {
-      "id": 21,
       "question": "¿En qué año River Plate ganó su primera Copa Intercontinental y contra qué equipo?",
       "options": ["2015 - FC Barcelona", "1996 - Juventus", "1986 - Steaua Bucarest", "1982 - Liverpool"],
-      "answer": "1986 - Steaua Bucarest"
+      "answerIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "¿Cuántas veces River Plate ha ganado la Recopa Sudamericana?",
+      "options": ["2", "3", "4", "5"],
+      "answerIndex": 1
     },
     {
       "id": 22,
-      "question": "¿Quién fue el máximo goleador de River Plate en la Copa Libertadores 2018?",
-      "options": ["Lucas Pratto", "Juan Fernando Quintero", "Gonzalo Martínez", "Rafael Borré"],
-      "answer": "Lucas Pratto"
+      "question": "¿En qué año River Plate logró su primer tricampeonato en la Primera División argentina?",
+      "options": ["1957", "1965", "1975", "1986"],
+      "answerIndex": 0
     },
     {
       "id": 23,
-      "question": "¿Cuántas veces River Plate ha ganado la Recopa Sudamericana?",
-      "options": ["2", "3", "4", "5"],
-      "answer": "3"
+      "question": "¿Cuál fue el resultado del partido histórico conocido como 'La Máquina'?",
+      "options": ["7-0", "5-1", "9-1", "11-2"],
+      "answerIndex": 1
     },
     {
       "id": 24,
-      "question": "¿En qué año River Plate logró su primer tricampeonato en la Primera División argentina?",
-      "options": ["1957", "1965", "1975", "1986"],
-      "answer": "1957"
+      "question": "¿En qué año River Plate disputó por primera vez la Copa Libertadores?",
+      "options": ["1953", "1960", "1966", "1972"],
+      "answerIndex": 2
     },
     {
       "id": 25,
-      "question": "¿Cuál fue el resultado del partido histórico conocido como 'La Máquina'?",
-      "options": ["7-0", "5-1", "9-1", "11-2"],
-      "answer": "5-1"
+      "question": "¿Quién fue el entrenador de River Plate en la conquista de la Copa Libertadores 1996?",
+      "options": ["Ramón Díaz", "Daniel Passarella", "Marcelo Gallardo", "Enzo Francescoli"],
+      "answerIndex": 0
     },
     {
       "id": 26,
-      "question": "¿En qué año River Plate disputó por primera vez la Copa Libertadores?",
-      "options": ["1953", "1960", "1966", "1972"],
-      "answer": "1966"
+      "question": "¿Cuántas veces River Plate ha ganado la Copa Argentina hasta 2022?",
+      "options": ["1", "2", "3", "4"],
+      "answerIndex": 1
     },
     {
       "id": 27,
-      "question": "¿Quién fue el entrenador de River Plate en la conquista de la Copa Libertadores 1996?",
-      "options": ["Ramón Díaz", "Daniel Passarella", "Marcelo Gallardo", "Enzo Francescoli"],
-      "answer": "Ramón Díaz"
+      "question": "¿Cuál fue el primer título internacional de River Plate?",
+      "options": ["Copa Sudamericana", "Copa Libertadores", "Copa Aldao", "Recopa Sudamericana"],
+      "answerIndex": 3
     },
     {
       "id": 28,
-      "question": "¿Cuántas veces River Plate ha ganado la Copa Argentina hasta 2022?",
-      "options": ["1", "2", "3", "4"],
-      "answer": "3"
+      "question": "¿En qué año River Plate logró su mayor goleada en un torneo internacional?",
+      "options": ["1976", "1986", "1996", "2018"],
+      "answerIndex": 0
     },
     {
       "id": 29,
-      "question": "¿Cuál fue el primer título internacional de River Plate?",
-      "options": ["Copa Sudamericana", "Copa Libertadores", "Copa Aldao", "Recopa Sudamericana"],
-      "answer": "Copa Aldao"
+      "question": "¿Cuántas veces River Plate ha ganado la Copa Suruga Bank?",
+      "options": ["1", "2", "3", "4"],
+      "answerIndex": 0
     },
     {
       "id": 30,
-      "question": "¿En qué año River Plate logró su mayor goleada en un torneo internacional?",
-      "options": ["1976", "1986", "1996", "2018"],
-      "answer": "1976"
+      "question": "¿Quién fue el arquero titular en la final de la Copa Libertadores 2018 para River Plate?",
+      "options": ["Franco Armani", "Marcelo Barovero", "Germán Lux", "Juan Pablo Carrizo"],
+      "answerIndex": 0
     },
-        {
+    {
       "id": 31,
-      "question": "¿Cuántas veces River Plate ha ganado la Copa Suruga Bank?",
-      "options": ["1", "2", "3", "4"],
-      "answer": "1"
+      "question": "¿En el torneo de verano de qué año River Plate le ganó 1 a 0 a Boca Juniors con un gol de Rafael Santos Borre?",
+      "options": ["2020", "2018", "2015", "2017"],
+      "answerIndex": 1
     },
     {
       "id": 32,
-      "question": "¿Quién fue el arquero titular en la final de la Copa Libertadores 2018 para River Plate?",
-      "options": ["Franco Armani", "Marcelo Barovero", "Germán Lux", "Juan Pablo Carrizo"],
-      "answer": "Franco Armani"
+      "question": "¿Cuántos títulos internacionales tiene River Plate en total?",
+      "options": ["10", "12", "14", "16"],
+      "answerIndex": 3
     },
     {
       "id": 33,
-      "question": "¿En el torneo de verano de qué año River Plate le gano 1 a 0 a Boca Juniors con un gol de Rafael Santos Borre?",
-      "options": ["2020", "2018", "2015", "2017"],
-      "answer": "2018"
+      "question": "¿Quién es el jugador con más títulos internacionales en la historia de River Plate?",
+      "options": ["Leonardo Ponzio", "Enzo Francescoli", "Juan Fernando Quintero", "Franco Armani"],
+      "answerIndex": 0
     },
     {
       "id": 34,
-      "question": "¿Cuántos títulos internacionales tiene River Plate en total?",
-      "options": ["10", "12", "14", "16"],
-      "answer": "16"
+      "question": "¿Cuantos jugadores aportó River a la Selección Nacional campeona del mundo en 2022?",
+      "options": ["1", "2", "3", "Ninguno"],
+      "answerIndex": 0
     },
     {
       "id": 35,
-      "question": "¿Quién es el jugador con mas titulos internacionales en la historia de River Plate?",
-      "options": ["Leonardo Ponzio", "Enzo Francescoli", "Juan Fernando Quintero", "Franco Armani"],
-      "answer": "Leonardo Ponzio"
+      "question": "¿Cuántas veces River Plate ha ganado la Copa Sudamericana?",
+      "options": ["1", "2", "3", "4"],
+      "answerIndex": 1
     },
     {
       "id": 36,
-      "question": "¿Cuantos jugadores aportó River a la Selección Nacional campeona del mundo en 2022?",
-      "options": ["1", "2", "3", "Ninguno"],
-      "answer": "1"
+      "question": "¿Cuál es el récord de más goles anotados por River Plate en una temporada de la Primera División argentina?",
+      "options": ["100", "105", "110", "115"],
+      "answerIndex": 1
     },
     {
       "id": 37,
-      "question": "¿Cuántas veces River Plate ha ganado la Copa Sudamericana?",
-      "options": ["1", "2", "3", "4"],
-      "answer": "1"
+      "question": "¿Cuantos goles hizo Julian Alvarez en la Copa Libertadores jugando para River?",
+      "options": ["5", "6", "10", "14"],
+      "answerIndex": 3
     },
     {
       "id": 38,
-      "question": "¿Cuál es el récord de más goles anotados por River Plate en una temporada de la Primera División argentina?",
-      "options": ["100", "105", "110", "115"],
-      "answer": "105"
+      "question": "¿En qué año River Plate disputó su primera final de la Copa Libertadores?",
+      "options": ["1966", "1976", "1986", "1996"],
+      "answerIndex": 2
     },
     {
       "id": 39,
-      "question": "¿Cuantos goles hizo Julian Alvarez en la Copa Libertadores jugando para River?",
-      "options": ["5", "6", "10", "14"],
-      "answer": "14"
+      "question": "¿En qué año River Plate obtuvo la victoria más abultada en la historia de la Copa Libertadores y contra qué equipo?",
+      "options": ["1986 - Gremio", "1996 - El Nacional", "2017 - Jorge Wilstermann", "2018 - Emelec"],
+      "answerIndex": 1
     },
     {
       "id": 40,
-      "question": "¿En qué año River Plate disputó su primera final de la Copa Libertadores?",
-      "options": ["1966", "1976", "1986", "1996"],
-      "answer": "1966"
+      "question": "¿Quién fue el máximo goleador de River Plate en la década de 1940?",
+      "options": ["Bernabé Ferreyra", "Adolfo Pedernera", "José Manuel Moreno", "Ángel Labruna"],
+      "answerIndex": 3
     },
         {
       "id": 41,
       "question": "¿En qué año River Plate obtuvo la victoria más abultada en la historia de la Copa Libertadores y contra qué equipo?",
       "options": ["1986 - Gremio", "1996 - El Nacional", "2017 - Jorge Wilstermann", "2018 - Emelec"],
-      "answer": "1976 - Jorge Wilstermann"
+      "answerIndex": 1
     },
     {
       "id": 42,
       "question": "¿Quién fue el máximo goleador de River Plate en la década de 1940?",
       "options": ["Bernabé Ferreyra", "Adolfo Pedernera", "José Manuel Moreno", "Ángel Labruna"],
-      "answer": "Ángel Labruna"
+      "answerIndex": 3
     },
     {
       "id": 43,
       "question": "¿Cuántas veces River Plate ha ganado la Copa Aldao en total?",
       "options": ["5", "7", "9", "11"],
-      "answer": "11"
+      "answerIndex": 3
     },
     {
       "id": 44,
       "question": "¿En qué año River Plate se consagró campeón invicto de la Primera División argentina?",
       "options": ["1994", "1945", "1955", "1962"],
-      "answer": "1994"
+      "answerIndex": 0
     },
     {
       "id": 45,
       "question": "¿Quién fue el entrenador de River Plate en la histórica goleada 5-1 a Boca Juniors en 1941?",
       "options": ["Carlos Peucelle", "Renato Cesarini", "Emérico Hirschl", "José María Minella"],
-      "answer": "Emérico Hirschl"
+      "answerIndex": 2
     },
     {
       "id": 46,
       "question": "¿En qué año River Plate ganó su primer título internacional y cuál fue el torneo?",
       "options": ["1915 - Copa Aldao", "1920 - Copa Río de la Plata", "1936 - Copa de Honor Cousenier", "1941 - Torneo Internacional de Montevideo"],
-      "answer": "1915 - Copa Aldao"
+      "answerIndex": 0
     },
     {
       "id": 47,
       "question": "¿Cuál es el récord de más tiempo sin recibir goles en la historia de River Plate?",
       "options": ["950 minutos", "1,025 minutos", "1,110 minutos", "1,202 minutos"],
-      "answer": "1,025 minutos"
+      "answerIndex": 1
     },
     {
       "id": 48,
       "question": "¿Quién fue el primer presidente de River Plate?",
       "options": ["Leopoldo Bard", "Pedro Martínez", "Federico Monti", "Arnaldo Balay"],
-      "answer": "Leopoldo Bard"
+      "answerIndex": 0
     },
     {
       "id": 49,
       "question": "¿En qué año River Plate disputó por primera vez la Copa Intercontinental y contra qué equipo?",
       "options": ["1976 - Bayern Múnich", "1986 - Steaua Bucarest", "1996 - Juventus", "2015 - Barcelona"],
-      "answer": "1986 - Steaua Bucarest"
+      "answerIndex": 1
     },
     {
       "id": 50,
       "question": "¿Quien fue el técnico del River campeon de la Copa Intercontinental 1986",
       "options": ["Hector Veira", "Reinaldo Merlo", "Antonio Alzamendi", "Nestor Gorosito"],
-      "answer": "Hector Veira"
+      "answerIndex": 0
     }
   ]
 }
