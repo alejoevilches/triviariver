@@ -3,6 +3,15 @@
   margin:0;
 }
 
+@font-face {
+  font-family: "Poppins Font";
+  src: url("../public/fonts/Poppins-SemiBold.ttf");
+}
+
+:root{
+  --titles-font:"Poppins Font"
+}
+
 body{
   background-color: black;
 }

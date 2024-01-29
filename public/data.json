@@ -1,5 +1,4 @@
-{
-  "preguntas": [
+[
     {
       "id": 0,
       "question": "¿Cuál es el año de fundación del Club Atlético River Plate?",
@@ -306,5 +305,4 @@
       "options": ["Hector Veira", "Reinaldo Merlo", "Antonio Alzamendi", "Nestor Gorosito"],
       "answerIndex": 0
     }
-  ]
-}
+]

@@ -1,0 +1,9 @@
+.start-section{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.start-section h1{
+  color:red;
+}

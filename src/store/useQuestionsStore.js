@@ -1,14 +1,14 @@
 import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
 
-export const useQuestionsStore = create(persist((set) => {
+export const useQuestionsStore = create((set) => {
   const questions = []
   const currentQuestion = 0
 
   const fetchQuestions = async (limit) => {
     const res = await fetch('public/data.json')
     const data = await res.json()
-    const questions = data.sort(() => Math.random() - 0.5).slice(0, limit)
+    const shuffledData = data.sort(() => Math.random() - 0.5)
+    const questions = shuffledData.slice(0, limit)
     set({ questions })
   }
 
@@ -28,5 +28,15 @@ export const useQuestionsStore = create(persist((set) => {
     })
   }
 
-  return { questions, fetchQuestions, currentQuestion, selectAnswer }
-}))
+  const nextQuestion = () => {
+    set((state) => {
+      const { currentQuestion, questions } = state
+      const nextQuestion = currentQuestion + 1
+      if (nextQuestion < questions.length) {
+        return { currentQuestion: nextQuestion }
+      }
+    })
+  }
+
+  return { questions, fetchQuestions, currentQuestion, selectAnswer, nextQuestion }
+})
