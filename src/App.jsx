@@ -2,7 +2,7 @@ import { Navbar } from './components/Navbar'
 import { Start } from './components/Start'
 import './App.css'
 import { useQuestionsStore } from './store/useQuestionsStore'
-import { useEffect } from 'react'
+import { Game } from './components/Game'
 
 function App () {
   const questions = useQuestionsStore(state => state.questions)
@@ -11,7 +11,7 @@ function App () {
       <Navbar />
       <div className='container'>
         {questions.length === 0 && <Start />}
-        {questions.length > 0 && <h1>Estas son las preguntas</h1>}
+        {questions.length > 0 && <Game />}
       </div>
     </main>
   )
