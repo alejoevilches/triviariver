@@ -2,15 +2,13 @@ import { useQuestionsStore } from '../store/useQuestionsStore'
 import './Question.css'
 
 export function Question ({ info }) {
-  const { nextQuestion, selectAnswer } = useQuestionsStore()
+  const { calculatePoints, nextQuestion, selectAnswer, currentQuestion } = useQuestionsStore()
   const handleSelectAnswer = (index) => () => {
     selectAnswer(info.id, index)
-    nextQuestion()
-  }
-  if (!info) {
-    return (
-      <p>Cargando</p>
-    )
+    if (currentQuestion < 3) {
+      return nextQuestion()
+    }
+    return calculatePoints()
   }
   return (
     <section className='question-container'>
