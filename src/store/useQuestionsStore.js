@@ -4,15 +4,17 @@ export const useQuestionsStore = create((set) => {
   const questions = []
   const currentQuestion = 0
   const endGame = false
-  const points = 0
+  const points = localStorage.getItem('points') ? parseInt(localStorage.getItem('points')) : 0
 
   const calculatePoints = () => {
     set((state) => {
-      const { questions } = state
+      const { questions, points } = state
+      console.log(questions)
       const newPoints = questions.reduce((acc, question) => {
         return acc + (question.isCorrectAnswer ? 1 : 0)
       }, 0)
-      console.log(questions)
+      const totalPoints = newPoints + points
+      localStorage.setItem('points', totalPoints)
       return { points: newPoints }
     })
   }
@@ -32,7 +34,7 @@ export const useQuestionsStore = create((set) => {
       const questionIndex = newQuestions.findIndex(q => q.id === questionId)
       const questionInfo = newQuestions[questionIndex]
       const isCorrectAnswer = questionInfo.answerIndex === answerIndex
-      newQuestions[questionInfo] = {
+      newQuestions[questionIndex] = {
         ...questionInfo,
         isCorrectAnswer,
         userSelectedAnswer: answerIndex

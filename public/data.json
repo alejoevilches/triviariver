@@ -45,7 +45,7 @@
       "id": 7,
       "question": "¿Quién es el entrenador actual de River Plate?",
       "options": ["Marcelo Gallardo", "Diego Simeone", "Ramón Díaz", "Martin Demichelis"],
-      "answerIndex": 0
+      "answerIndex": 3
     },
     {
       "id": 8,
@@ -170,7 +170,7 @@
     {
       "id": 28,
       "question": "¿En qué año River Plate logró su mayor goleada en un torneo internacional?",
-      "options": ["1976", "1986", "1996", "2018"],
+      "options": ["1970", "1986", "1996", "2018"],
       "answerIndex": 0
     },
     {
@@ -213,7 +213,7 @@
       "id": 35,
       "question": "¿Cuántas veces River Plate ha ganado la Copa Sudamericana?",
       "options": ["1", "2", "3", "4"],
-      "answerIndex": 1
+      "answerIndex": 0
     },
     {
       "id": 36,
@@ -231,7 +231,7 @@
       "id": 38,
       "question": "¿En qué año River Plate disputó su primera final de la Copa Libertadores?",
       "options": ["1966", "1976", "1986", "1996"],
-      "answerIndex": 2
+      "answerIndex": 0
     },
     {
       "id": 39,
