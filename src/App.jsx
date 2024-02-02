@@ -10,7 +10,6 @@ function App () {
   const questions = useQuestionsStore(state => state.questions)
   const endGame = useQuestionsStore(state => state.endGame)
   const calculatePoints = useQuestionsStore(state => state.calculatePoints)
-  if (endGame) calculatePoints()
   return (
     <main>
       <Navbar />

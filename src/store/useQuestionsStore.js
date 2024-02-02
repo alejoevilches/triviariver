@@ -4,7 +4,8 @@ export const useQuestionsStore = create((set) => {
   const questions = []
   const currentQuestion = 0
   const endGame = false
-  const points = localStorage.getItem('points') ? parseInt(localStorage.getItem('points')) : 0
+  const getPointsFromLocalStorage = localStorage.getItem('points') ? parseInt(localStorage.getItem('points')) : 0
+  const points = getPointsFromLocalStorage
 
   const calculatePoints = () => {
     set((state) => {
@@ -15,7 +16,7 @@ export const useQuestionsStore = create((set) => {
       }, 0)
       const totalPoints = newPoints + points
       localStorage.setItem('points', totalPoints)
-      return { points: newPoints }
+      return { points: totalPoints }
     })
   }
 
@@ -50,6 +51,7 @@ export const useQuestionsStore = create((set) => {
       if (nextQuestion <= 2) {
         return { currentQuestion: nextQuestion }
       }
+      calculatePoints()
       return { endGame: true }
     })
   }
