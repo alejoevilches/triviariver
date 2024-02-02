@@ -1,9 +1,37 @@
+@import url(/src/index.css);
+
 .start-section{
   display:flex;
+  align-items: center;
   flex-direction: column;
   gap:10px;
+  font-family: var(--titles-font);
+  width:80vw;
 }
 
 .start-section h1{
   color:red;
+  font-size: 2em;
+}
+
+.start-section p{
+  font-size:1.5em;
+  padding-bottom:20px;
+}
+
+.start-section button{
+  width:400px;
+  font-size: 1.2em;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 9px;
+  background: #E3432D;
+  border: 1px solid white;
+  color:white;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
 }

@@ -1,3 +1,9 @@
+@import url(/src/index.css);
+
+.question-container{
+  font-family: var(--titles-font);
+}
+
 .options-container{
   display:flex;
   flex-direction: column;

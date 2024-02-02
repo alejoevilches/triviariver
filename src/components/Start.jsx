@@ -1,10 +1,11 @@
 import './Start.css'
 import { useQuestionsStore } from '../store/useQuestionsStore'
+const QUESTION_LIMIT = 3
 
 export function Start () {
   const fetchQuestions = useQuestionsStore(state => state.fetchQuestions)
   const handleStartButton = () => {
-    fetchQuestions(3)
+    fetchQuestions(QUESTION_LIMIT)
   }
   return (
     <section className='start-section'>
@@ -13,6 +14,7 @@ export function Start () {
       <button onClick={handleStartButton}>
         Empezar
       </button>
+      <img src='public/gif.gif' alt='Promocion de Meridional Seguros' />
     </section>
   )
 }
