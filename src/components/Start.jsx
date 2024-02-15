@@ -14,7 +14,7 @@ export function Start () {
       <button onClick={handleStartButton}>
         Empezar
       </button>
-      <img src='public/gif.gif' alt='Promocion de Meridional Seguros' />
+      <img src='./gif.gif' alt='Promocion de Meridional Seguros' />
     </section>
   )
 }
