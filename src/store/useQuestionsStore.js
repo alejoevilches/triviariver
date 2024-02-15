@@ -21,7 +21,7 @@ export const useQuestionsStore = create((set) => {
   }
 
   const fetchQuestions = async (limit) => {
-    const res = await fetch('public/data.json')
+    const res = await fetch('./data.json')
     const data = await res.json()
     const shuffledData = data.sort(() => Math.random() - 0.5)
     const questions = shuffledData.slice(0, limit)
